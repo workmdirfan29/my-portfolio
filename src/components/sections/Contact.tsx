@@ -70,14 +70,14 @@ const Contact = () => {
 
             <div className="mt-10 flex gap-6 text-sm">
               <a
-                href="#"
+                href="https://github.com/workmdirfan29"
                 className="text-text-muted transition-colors hover:text-secondary"
               >
                 GitHub ↗
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/mdirfan2470/"
                 className="text-text-muted transition-colors hover:text-secondary"
               >
                 LinkedIn ↗
