@@ -1,12 +1,11 @@
 import { RxCross2 } from "react-icons/rx";
 import mine from "../../assets/Mine_.jpeg";
-import Irfan from "../../../dist/Irfan.pdf";
 interface ResumeModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
-const resumePath = Irfan;
+const resumePath = "/Irfan.pdf";
 
 const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
   if (!isOpen) return null;
