@@ -6,7 +6,7 @@ interface ResumeModalProps {
   onClose: () => void;
 }
 
-const resumePath = "/Irfan.pdf";
+const resumePath = "/Md_Irfan_Resume (1).pdf";
 
 const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
   if (!isOpen) return null;
